@@ -1,0 +1,52 @@
+*.gz
+database/
+merged/
+myscripts/
+inference/
+pipeline/
+freebase-info/
+
+*.db 
+*.log 
+*.pyc 
+*.json
+
+database-old/*
+database_copy/*
+
+# Environment variables and secrets
+.env
+.env.local
+*.key
+*.pem
+*.crt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files and checkpoints
+*.bin
+*.safetensors
+checkpoints/
+models/
+*.pt
+*.pth
+
+# Temporary files
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,20 @@
+# Logs and traces
+*.log
+*_traces.json
+*_traces_export.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Symlinks (external deps)
+ontology/
+
+# Temp files
+/tmp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup

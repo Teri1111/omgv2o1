@@ -1,0 +1,16 @@
+{
+  "total_rules": 160,
+  "by_type": {
+    "ERROR_RECOVERY": 34,
+    "SUCCESS_SHORTCUT": 56,
+    "CONSTRAINT_GUIDE": 28,
+    "LOGICAL_STRUCTURE": 34,
+    "TYPE_MISMATCH": 8
+  },
+  "consolidated": 0,
+  "unconsolidated": 160,
+  "total_success": 0,
+  "total_fail": 0,
+  "embedding_dim": 384,
+  "last_saved": "2026-04-15 23:21:53"
+}

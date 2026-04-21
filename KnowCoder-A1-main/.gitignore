@@ -1,0 +1,36 @@
+# Local infrastructure
+virtuoso-opensource
+virtuoso*
+
+# Nested local repositories
+TrajKBQA/
+
+# Experiment artifacts
+checkpoints/
+logs/
+outputs/
+wandb/
+
+# Python caches
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
